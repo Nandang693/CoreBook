@@ -1,0 +1,23 @@
+:root {
+    --primary : #d2763b;
+    --secondary : #f29c41;
+    --background : #4b3627;
+    --backup : #b3754f;
+    --backup2 : #deb98f;
+}
+
+
+*, *::before, *::after { 
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    min-height: 99999vh;
+
+}

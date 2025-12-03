@@ -1,0 +1,41 @@
+#containerNav {
+    background-color: var(--background);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    flex-wrap: wrap;
+    border-bottom: 3px var(--backup) solid;
+    z-index: 1000;
+    transition: all 0.2s ease;
+}
+
+#containerNav.scrolled{
+    background-color: rgba(75, 54, 39, 0.9);
+    backdrop-filter: blur(5px);
+}
+
+#navTittle{
+    font-size: 1.5rem;
+    color: var(--primary);
+    border-bottom: 2px var(--backup2) solid;
+    text-shadow: 0 5px 8px rgba(0,0,0,1);
+    letter-spacing: 1px;
+}
+
+
+
+.searchBar {
+
+}
+
+
+.navbarNav {
+    color: var(--primary);
+    text-decoration: none;
+
+}
+
+

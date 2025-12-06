@@ -19,15 +19,19 @@
 
 <section id="navbarSection">
 <nav id="containerNav">
-<a href="#" id="navTittle">CoreBook</a>
+    <div class="contTittle">
+        <a href="#" id="navTittle">CoreBook</a>
+    </div>
 
-<form action="" id="searchBar" class="searchBar">
-    <input type="search">
-    <button>search</button>
-</form>
+    <form onsubmit="event.preventDefault();" role="search">
+        <label for="search">Search for stuff</label>
+        <input id="search" type="search" placeholder="Search..." autofocus required />
+        <button type="submit">Go</button>    
+    </form>
     <div class="contNavbarNav">
-   
-    <a href="#" class="navbarNav">Book List</a><a href="#" class="navbarNav">Genre List<a><a href="#" class="navbarNav">About Us</a>
+        <a href="#" class="navbarNav">Book List</a>
+        <a href="#" class="navbarNav">Genre List</a>
+        <a href="#" class="navbarNav">About Us</a>
     </div>
 </nav>
 </section>
